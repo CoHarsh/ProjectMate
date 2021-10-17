@@ -1,0 +1,63 @@
+.mainContainer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maintext
+{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 10%;
+    margin: 23px 0;
+}
+.title
+{
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+}
+.maintext>p{
+    font-size: 18px;
+    color: #31343c;
+}
+.mainimg
+{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.mainimg>img
+{
+    width: 100%;
+    height: 90vh; 
+}
+.title>span{
+    color: #3d5aff;
+}
+
+@media only screen and (max-width: 990px) {
+    .mainContainer
+    {
+        flex-direction: column;
+    }
+    .mainimg
+    {
+        width: 100%;
+        height: 65vh;
+    }
+    .maintext
+    {
+        width: 100%;
+        height: 25vh;
+    }
+    .mainimg>img {
+        width: auto;
+        height: 85%;
+        box-sizing: border-box;
+    };
+    
+  }
